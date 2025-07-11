@@ -47,7 +47,7 @@ body{
 
 /* Header styles */
 header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(./Assets/Hero-bg.png);
     padding: 20px 150px;
 }
 .navbar{
@@ -134,7 +134,66 @@ header{
     margin: 5px 0px;
 }
 
-
+/* review section styles */
+.review-section{
+    padding: 50px 0px;
+    text-align: center;
+}
+.review-section h1{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #252432;
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 30px;
+}
+.review{
+    text-align: left;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #fafcff;
+    border: 1px solid rgba(242, 237, 237, 1);
+}
+.review h3{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin: 10px 0px;
+}
+.review p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 10px 0px;
+    color: #474848;
+}
+.reviewer-details{
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+}
+.reviewer-details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.reviewer-details{
+    margin-top: 15px;
+    display: flex;
+}
+.reviewer-details h4{
+    font-size: 18px;
+    margin: 4px 0px;
+    color: #757575;
+}
+.reviewer-details h5{
+    font-size: 16px;
+    margin: 4px 0px;
+    color: #cdcecf;
+}
 
 
 

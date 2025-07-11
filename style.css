@@ -195,6 +195,99 @@ header{
     color: #cdcecf;
 }
 
+/* ready to focus bettar section styles */
+.focus-section{
+    background-color: #ffffff;
+    border-radius: 14px;
+    text-align: center;
+    padding: 50px 70px;
+    margin: 30px 0px;
+}
+.focus-section h1{
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #252432;
+    margin: 20px 0px;
+}
+.focus-section p{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin: 15px 0px;
+    color: #474848;
+}
+.focus-section img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+/* contact section styels */
+.contact-section{
+    margin: 100px 0px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.contact-section h1{
+    font-size: 97px;
+    font-family: "Raleway", sans-serif;
+    line-height: 120%;
+    font-weight: 700;
+    color: #252432;
+    margin: 20px 0px;
+    width: 100%;
+}
+.contact-section input[type="text"], input[type="email"], textarea{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #808080;
+    padding: 20px 20px;
+    width: 93%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+}
+.contact-section label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.contact-section input[type="button"] {
+    font-size: 16px;
+    font-family:"Raleway", sans-serif ;
+    font-weight: 600;
+    background-color: #4E47FF;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin: 5px 0px;
+    width: 100%;
+}
+.contact-section input[type="button"] a {
+    color: white;
+    text-decoration: none;
+}
+.contact-section input[type="button"]:hover {
+    font-size: 16px;
+    font-family:"Raleway", sans-serif ;
+    font-weight: 600;
+    background-color: #f2c60c;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.contact-section input[type="button"] a{
+    color: black;
+    text-decoration: none;
+}
+
+/*  */
 
 
 

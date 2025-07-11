@@ -281,13 +281,47 @@ header{
     border: none;
     border-radius: 5px;
     transform: scale(1.1);
+    color: black;
 }
 .contact-section input[type="button"] a{
     color: black;
     text-decoration: none;
 }
 
-/*  */
+/* footer styles */
+footer{
+    background-color: #ffffff;
+    padding: 30px 0px;
+    text-align: center;
+}
+footer h1{
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    color:#4E47FF;
+    margin: 10px 0px;
+}
+footer p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 15px 0px;
+    color: #9f9eb2;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    list-style: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #9f9eb2;
+    text-align: center;
+    margin-right: 50px;
+}
 
 
 
